@@ -1,0 +1,29 @@
+{
+  "name": "tsnpmrepo",
+  "version": "1.0.0",
+  "description": "Demo package ts npm",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CerDennis/ts-npm-repo.git"
+  },
+  "author": "CerDennis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CerDennis/ts-npm-repo/issues"
+  },
+  "homepage": "https://github.com/CerDennis/ts-npm-repo#readme",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
+  }
+}
